@@ -1,0 +1,39 @@
+.div_gen {
+    border: 3px solid red;
+    width: 300px;
+    position: relative;
+    margin: 20px auto;
+    height: 300px;
+}
+
+.divE {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.divR{
+    background-color: orangered;
+
+}
+
+.divG {
+    background-color: greenyellow;
+    display: block;
+    position: absolute;
+}
+
+.divB {
+    background-color: skyblue;
+    float: right;
+
+
+}
+
+.divY {
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    right: 0;
+}

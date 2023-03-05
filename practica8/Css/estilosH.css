@@ -1,0 +1,51 @@
+.div_gen {
+    border: 3px solid red;
+    width: 300px;
+    position: relative;
+    margin: 20px auto;
+    height: 300px;
+}
+
+.divE {
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.divR{
+    background-color: orangered;
+    float: left;
+    margin-top: 95px;
+    margin-left: 95px;
+
+}
+
+.divB {
+    background-color: skyblue;
+    margin-top: 95px;
+    margin-left: 5px;
+}
+
+.divG {
+    background-color: greenyellow;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 95px;
+
+}
+
+
+
+.divY {
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-right: 100px;
+
+}

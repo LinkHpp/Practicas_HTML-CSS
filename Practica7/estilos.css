@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: #d8da3d;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: purple;
+    font-family: Liberation Sans;
+}
+
+h3 img {
+    vertical-align: super;
+}
+
+.pais {
+    position: relative;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.suiza {
+    border: 1px solid red;
+    color: red;
+    left: 15%;
+    width: 45%;
+}
+
+.suiza h3 {
+    text-align: right;
+}
+
+
+.foto_suiza {
+    float: left;
+    padding-right: 10px;
+    height: 50%;
+    width: 50%;
+}
+
+.grecia h3 {
+    text-align: left;
+}
+
+.grecia {
+    border: 1px solid blue;
+    color: blue;
+    left: 30%;
+    width: 55%;
+}
+
+
+.img_grecia {
+    float: right;
+    padding-left: 10px;
+}
+
+.noruega {
+    background-color: blue;
+    color: white;
+    width: 45%;
+    border: 1px solid red;
+    left: 15%;
+}
+
+.noruega h3 {
+    text-align: center;
+}
+
+.img_noruega {
+    position: relative;
+    left: 35%;
+}
+
