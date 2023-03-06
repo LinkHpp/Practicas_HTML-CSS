@@ -1,0 +1,100 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div class="menu_background menu_superior " id="pagina-principal">
+        <div class="grupo__titulo">
+            <h3 class="titulo">
+                <img class="logo" src="./img/lineage-2-logo-png-1.webp">
+                X-Point Games
+            </h3>
+        </div>
+
+        <div class="menu">
+            <ul class="texto-centrado">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="encuentranos.html">Donde encontrarnos</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                <li><a href="sobre.html">Sobre nosotros</a></li>
+                <li><a href="features.html">Features del Juego</a>
+                    <ul>
+                        <li><a href="#">Clan Hall</a></li>
+                        <li><a href="#">Bosses</a></li>
+                        <li><a href="#">Coliseum</a></li>
+                        <li><a href="#">Siege</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="row centrado">
+        <div class="borde-caja  caja texto-centrado" id="caja_formulario_contacto">
+            <p>Formulario de contacto</p>
+            <p>Esto es un formulario que, como cualquier persona normal con algo de conocimientos basicos, sirve para recibir la informacion. Aunque tambien puedes mandar solicitud de trabajo aqui, que hay 3 personas y media trabajando en el juego</p>
+            <form class="centrado" action="" method="post" id="formulario_contacto">
+                <div class="grupo__formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Nombre" placeholder="Introduce tu nombre">
+                </div>
+
+                <div class="grupo__formulario">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos">
+                </div>
+
+                <div class="grupo__formulario">
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" id="correo" name="correo" placeholder="Introduce tu correo">
+                </div>
+                <div class="grupo__formulario">
+                    <label for="dni">DNI</label>
+                    <input type="text" name="dni" id="dni" placeholder="Introduce el DNI">
+                </div>
+
+
+                <div class="grupo__formulario">
+                    <label for="sexo">Sexo: </label>
+                    <input type="radio" name="sexo" id="sexo" value="1"> Hombre
+                    <input type="radio" name="sexo" value="2"> Mujer
+                </div>
+
+                <div class="grupo__formulario">
+                    <label for="direccion">Direccion</label>
+                    <input type="text" id="direccion" placeholder="Introduce direccion">
+                </div>
+
+                <div class="grupo__formulario">
+                    <label for="plataforma">Selecciona una opción</label>
+                    <select name="plataforma" id="plataforma">
+                            <option clas value="1">Bucar Trabajo</option>
+                            <option value="2">Recibir avisos sobre el juego</option>
+                            <option value="3">Recibir todo lo que queramos</option>
+
+                    </select>
+                </div>
+
+
+                <div class="grupo__formulario">
+                    <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox"> He leido y acepto la 
+                </div>
+                <a href="politica.html" class="">Politica de privacidad</a></label>
+
+                <div class="grupo__formulario">
+                    <button type="submit" id="submit">Enviar</button>
+                    <button type="reset" id="reset">Limpiar</button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+</body>
+<footer>
+    <a href="avisolegal.html">Aviso Legal</a>
+    <a href="politica.html">Politica privacidad</a>
+</footer>
+
+</html>
